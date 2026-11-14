@@ -5,9 +5,9 @@ out vec4 FragColor;
 
 uniform vec3  viewPos;
 uniform vec3  objectColor;
-uniform float emissive;        // 0..1:лампы, окна, фары
+uniform float emissive;        
 
-uniform bool  lightEnabled;    // F:toggle
+uniform bool  lightEnabled;    
 uniform vec3  sunDir;          
 uniform vec3  sunColor;
 uniform vec3  ambientColor;
@@ -18,7 +18,7 @@ uniform vec3  spotDir;
 uniform float spotInner;       
 uniform float spotOuter;       
 
-uniform bool  fogEnabled;      // G: 
+uniform bool  fogEnabled;      
 uniform vec3  fogColor;
 uniform float fogDensity;
 
@@ -34,7 +34,7 @@ void main()
         vec3 N = normalize(Normal);
         vec3 V = normalize(viewPos - FragPos);
         vec3 L = normalize(sunDir);
-        vec3 H = normalize(L + V);                 // Blinn-Phong: 
+        vec3 H = normalize(L + V);                 
 
         float diff = max(dot(N, L), 0.0);
         float spec = (diff > 0.0) ? pow(max(dot(N, H), 0.0), 48.0) * 0.25 : 0.0;
