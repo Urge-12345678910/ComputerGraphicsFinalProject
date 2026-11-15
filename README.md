@@ -38,6 +38,9 @@ No extra installs: GLFW (static lib) and GLAD are inside `Libraries/`. Shaders a
 Red light = 1 penalty. Exceeding the sign speed limit by more than 5 km/h for 2 s = 1 penalty.
 Collision = 2 penalties. 10 penalties = Game Over. Score = distance/10 - penalties*20.
 
+## Video Link
+https://youtu.be/hWB8buZlr7A?si=sjXWnX52bO4t2uTM
+
 ## Libraries
 GLFW 3 (window/input), GLAD (OpenGL loader). Math, mesh generation, bitmap font and UI are written by the team.
 
