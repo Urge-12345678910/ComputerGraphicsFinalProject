@@ -8,7 +8,7 @@ namespace
     const Mesh::Taper TAPERS[Mesh::ShapeCount] = {
         { 0.00f, 0.00f, 0.00f },   // Box
         { 0.00f, 0.00f, 0.00f },   // Cylinder 
-        { 0.06f, 0.03f, 0.02f },   // Body: слегка скошенный кузов
+        { 0.06f, 0.03f, 0.02f },   // Body
         { 0.12f, 0.32f, 0.20f },   // CabinSedan
         { 0.10f, 0.30f, 0.06f },   // CabinHatch
         { 0.08f, 0.20f, 0.07f },   // CabinSUV
