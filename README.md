@@ -41,6 +41,9 @@ Collision = 2 penalties. 10 penalties = Game Over. Score = distance/10 - penalti
 ## Video Link
 https://youtu.be/hWB8buZlr7A?si=sjXWnX52bO4t2uTM
 
+## Presentation 
+https://canva.link/f1qgt5wtnd9asj9
+
 ## Libraries
 GLFW 3 (window/input), GLAD (OpenGL loader). Math, mesh generation, bitmap font and UI are written by the team.
 
